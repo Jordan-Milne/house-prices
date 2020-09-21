@@ -1,12 +1,9 @@
- <img src="https://cdn2.iconfinder.com/data/icons/real-estate-60/300/12-512.png" align="left" width="58">
+<img src="https://cdn2.iconfinder.com/data/icons/real-estate-60/300/12-512.png" align="left" width="58">
 
-<<<<<<< HEAD
 # Kaggle House Pricing (Competition)
-=======
-This is my jupyter notebook used for the [housing kaggle competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview)
->>>>>>> b77a615fd8ad3a46637fef9e3a95f96b25a6077b
 
---- 
+---
+
 My submission is in the top 25% of the leaderboard... however, many of the top scores above mine are a product of cheating/memorization as they have a RMSE of almost a true 0 due to the fact that their is not limit to the amount of submissions per user.
 
 The contents of the notebook are:
@@ -30,5 +27,5 @@ The contents of the notebook are:
 
 ### Model Optimization
 
-* GridSeach multiple values for multiple hyperparameters 
+* GridSeach multiple values for multiple hyperparameters
 * CrossFold validation on each search
