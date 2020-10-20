@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  </style>
+</head>
+<title>House Pricer</title>
+<img src='https://cdn.wallpapersafari.com/69/15/B0ejxT.jpg' style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'>
+    <h3>Buy Car</h3>
+      <form action = "/result" method="POST">
+        <p>Enter Year Built (Original construction date):<input name="YearBuilt" type="number" value=2010></p>
+        <p>Enter Remodel date (same as construction date if no remodeling or additions):<input name="YearRemodAdd" type="number" value=201></p>
+        <p>Enter Overall Condition (Rates the overall condition of the house):
+          <select name="OverallCond">
+            <option value=10 selected>Very Excellent</option>
+            <option value=9> Excellent</option>
+            <option value=8> Very Good</option>
+            <option value=7> Good</option>
+            <option value=6> Above Average</option>
+            <option value=5> Average</option>
+            <option value=4> Below Average</option>
+            <option value=3> Fair</option>
+            <option value=2> Poor</option>
+            <option value=1> Very Poor</option>
+          </select>
+        </p>
+        <p>Enter Overall Qualilty (Rates the overall material and finish of the house):
+          <select name="OverallQual">
+            <option value=10 selected>Very Excellent</option>
+            <option value=9> Excellent</option>
+            <option value=8> Very Good</option>
+            <option value=7> Good</option>
+            <option value=6> Above Average</option>
+            <option value=5> Average</option>
+            <option value=4> Below Average</option>
+            <option value=3> Fair</option>
+            <option value=2> Poor</option>
+            <option value=1> Very Poor</option>
+          </select>
+        </p>
+        <p>Enter Above grade (ground) living area square feet:<input name="GrLivArea" type="number" value=4000></p>
+        <p>Enter Total square feet of basement area:<input name="TotalBsmtSF" type="number" value=1000></p>
+        <p>Enter Finished square feet of basment:<input name="BsmtFinSF1" type="number" value="500"></p>
+        <p>Enter Linear feet of street connected to property:<input name="LotFrontage" type="number" value="200"></p>
+        <p>Enter Lot size in square feet:<input name="LotArea" type="number" value="6000"></p>
+        <p>Enter Size of garage in square feet:<input name="GarageArea" type="number" value="400"></p>
+
+      <p><input type ="submit" value="submit"/></p>
+    </form>
+   </body>
+</html>
